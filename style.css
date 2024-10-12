@@ -1,0 +1,91 @@
+*{margin:0;
+  box-sizing: border-box;}
+
+#grid {
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap:0px;
+
+    width: 340px;
+    height: 340px;
+    padding:20px 10px 10px 20px;
+   
+    border: 2px dodgerblue dashed;
+
+  
+           
+}
+
+img{ padding: 6px;}
+
+#img1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    position: relative;
+    top:0px;
+   
+  }
+
+#img2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+    position: relative;
+    top:0px;
+
+}
+
+#img3{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+    position: relative;
+    top:0px;
+  }
+
+#img4 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    position: relative;
+    top:0px;
+
+   
+}
+
+#img5 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    position: relative;
+    top:0px;
+  }
+
+#img6 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+    position: relative;
+    top:0px;
+   
+}
+
+
+.tall{height:200px; width:100px;}
+
+.small{height:100px; width: 100px;}
