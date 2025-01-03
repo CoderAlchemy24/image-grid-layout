@@ -89,3 +89,32 @@ img{ padding: 6px;}
 .tall{height:200px; width:100px;}
 
 .small{height:100px; width: 100px;}
+
+/* P58c3 */
+#grid-page1 {
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px;
+
+    width: 340px;
+    height: 340px;
+    padding: 20px 10px 10px 20px;
+
+    border: 2px dodgerblue dashed;
+}
+
+#grid-page1 img {
+    padding: 6px;
+}
+
+#grid-page1 .tall {
+    height: 100px;
+    width: 200px;
+}
+
+#grid-page1 .small {
+    height: 100px;
+    width: 100px;
+}
